@@ -1,0 +1,26 @@
+server:
+  port: 8999
+  
+eureka:
+  instance:
+    hostname: localhost
+
+
+spring:
+  application:
+    name: api-gateway
+    
+  cloud:
+    gateway:
+      routes:
+      - id: movie-service
+        uri: localhost
+        predicates:
+        - Path=/movie/**
+      - id: show-service
+        uri: localhost
+        predicates:
+        - Path=/show/**
+          
+          
+  
