@@ -62,7 +62,7 @@ public void setMovie(String movie) {
 	this.movie = movie;
 }
 public Movie(int mid, String city, String movie) {
-	super();
+
 	this.mid = mid;
 	this.city = city;
 	this.movie = movie;
