@@ -30,7 +30,7 @@ private int mid;
  
  
 
-public Movie(int mid, String city, String movie, List<Shows> shows) {
+public Movie(int mid, String city, String movie, List<Shows> shows ) {
 	super();
 	this.mid = mid;
 	this.city = city;
@@ -63,7 +63,7 @@ public void setMovie(String movie) {
 }
 public Movie(int mid, String city, String movie) {
 
-	this.mid = mid;
+	this.mid = mid ;
 	this.city = city;
 	this.movie = movie;
 }
