@@ -21,14 +21,10 @@ import com.psl.MovieMicroservice.Service.MovieService;
 @RestController
 @RequestMapping("/movies")
 public class MovieController {
-	
-	
 	@Autowired 
 	private MovieService ms;
-	
 	@Autowired
-	private RestTemplate rt;
-	
+	private RestTemplate rt;s
 	@Autowired
 	private ObjectMapper jacksonObjectMapper;
 	
