@@ -67,6 +67,8 @@ public Movie(int mid, String city, String movie) {
 	this.city = city ;
 	this.movie = movie ;
 }
+
+
 public Movie() {
 	super();
 	// TODO Auto-generated constructor stub

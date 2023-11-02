@@ -19,7 +19,7 @@ import com.psl.MovieMicroservice.Entity.Shows;
 import com.psl.MovieMicroservice.Service.MovieService;
 
 @RestController
-@RequestMapping("/movie")
+@RequestMapping("/movies")
 public class MovieController {
 	
 	
